@@ -1,4 +1,4 @@
-export function fibonacciWithEmojis(content: number[]) {
+export function replaceToEmoji(content: number[]) {
 	const emojis = ["🚀", "🇧🇷", "☘️", "🤘🏼", "🧑🏼‍🚀"];
 
 	const arrayWithEmojis = content.map((number) =>
