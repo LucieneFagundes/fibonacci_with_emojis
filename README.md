@@ -13,7 +13,7 @@
 
     OU
 
-- `npm run dev:api` 👉 Para user o Browser.
+- `npm run dev:api` 👉 Para usar o Browser.
 
 
 4 - Para transformar o código TypeScript para JavaScript, execute o comando 
@@ -22,6 +22,6 @@
 
     OU
 
-- `npm run start:api` 👉 Para user o Browser.
+- `npm run start:api` 👉 Para usar o Browser.
 
 ⚠️ Caso deseje executar com o browser, no seu navegador, você irá digitar na barra de busca **localhost:3000/fibonacci/_number_**, onde "number" é um número de sua escolha a partir de 0.
