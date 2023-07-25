@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "terminal": "tsx src/index.ts",
-    "api": "tsx watch src/server.ts"
+    "build": "tsup src --out-dir build",
+    "dev:terminal": "tsx src/index.ts",
+    "dev:api": "tsx watch src/server.ts",
+    "start:terminal": "node build/index.js",
+    "start:api": "node build/server.js"
+
   },
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/prompt-sync": "^4.2.0",
+    "tsup": "^7.1.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6"
   },

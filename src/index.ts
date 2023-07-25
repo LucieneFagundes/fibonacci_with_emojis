@@ -15,7 +15,7 @@ function startApp() {
     const numberInput = Number(response);
 
     if (isNaN(numberInput) || numberInput <= 0) {
-      console.log("Por favor, digite um número válido maior que 0.");
+      console.log("Por favor, digite um número válido maior que 0.\n");
       continue;
     }
 
